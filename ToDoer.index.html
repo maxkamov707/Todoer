@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>ToDoer</title>
+<link rel="stylesheet" href="Todoer.css">
+<link rel="stylesheet" href="bootstrap.min.css">
+<script src="bootstrap.min.js"></script>
+</head>
+<body>
+ <div id="header">
+  <div id="menu">
+   <a href="index.html">Home</a>
+   <a href="#">ToDoer</a>
+  </div>
+  <div id="logo">
+   <img width="50px" height="50px" src="todoer.jpg" alt="ToDoer Logo">
+  </div>
+ </div>
+ <div id="todo-container">
+  <h1> ToDoer</h1>
+  <h1>Welcome to ToDoer! Hush kelibsiz Todoer qismiga!</h1>
+  <label>
+   <input id="todo-input" type="text" placeholder="Type your task here...">
+   <button id="add-button">Add</button>
+  </label>
+  <div id="todo-list-container">
+
+  </div>
+ </div>
+
+<script src="main.js"></script>
+<style>
+    /* Responsivlik uchun o'zgartirilgan stil */
+    #header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+ 
+    #menu {
+      flex-grow: 1;
+      text-align: center;
+    }
+ 
+    #logo img {
+      max-width: 100%;
+      height: auto;
+    }
+ 
+    #todo-container {
+      text-align: center;
+      margin: 20px;
+    }
+ 
+    #todo-input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+ 
+    #add-button {
+      padding: 10px 20px;
+    }
+ 
+    #todo-list-container {
+      margin-top: 20px;
+    }
+  </style>
+
+</body>
+</html>

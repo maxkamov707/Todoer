@@ -1,0 +1,116 @@
+
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #F8F8F8;
+    border-bottom: 1px solid #CCC;
+   }
+ 
+   #menu {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+   }
+ 
+   #menu a {
+    text-decoration: none;
+    padding: 0px 10px;
+    color: #555;
+    font-size: 16px;
+    font-weight: bold;
+   }
+ 
+   #menu a:hover {
+    background-color: #EEE;
+    color: #333;
+   }
+ 
+   #logo {
+    flex: 1;
+    text-align: center;
+   }
+ 
+   h1 {
+    color: #555;
+    text-align: center;
+    margin-top: 50px;
+   }
+ 
+   #todo-container {
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #FFF;
+    border-radius: 5px;
+   }
+ 
+   #todo-container h1 {
+    color: #333;
+    font-weight: normal;
+    font-size: 28px;
+    margin-bottom: 20px;
+   }
+ 
+   #todo-container label {
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+   }
+ 
+   #todo-container label input {
+    margin-right: 10px;
+   }
+ 
+   #todo-container input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+    font-size: 16px;
+    outline: none;
+   }
+ 
+   #todo-container button {
+    background-color: #4CAF50;
+    color: #FFF;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+   }
+ 
+   #todo-list-container {
+    margin-top: 20px;
+   }
+ 
+   .todo-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    margin-top: 10px;
+   }
+ 
+   .todo-item span {
+    flex: 1;
+    font-size: 16px;
+    margin-left: 10px;
+   }
+ 
+   .todo-item button {
+    background-color: #E74C3C;
+    color: #FFF;
+    border-radius: 3px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    outline: none;
+   }
